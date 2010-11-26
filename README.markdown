@@ -12,7 +12,7 @@ This button acts as typical "Update" form submittion and shown when:
 
 ## Screenshot
 
-![Contextual toolbar of Redmine issue](http://github.com/akzhan/redmine_close_button/raw/master/screenshot.png "Contextual toolbar of Redmine issue")
+![Contextual toolbar of Redmine issue](https://github.com/akzhan/redmine_close_button/raw/master/screenshot.png "Contextual toolbar of Redmine issue")
 
 ## Compatibility
 
