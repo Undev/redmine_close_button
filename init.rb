@@ -5,7 +5,7 @@ Redmine::Plugin.register :redmine_close_button do
   author 'akzhan.abdulin@gmail.com'
   description 'This is the Close Issue button plugin for Redmine'
   version '0.0.1'
-  url 'http://github.com/akzhan/redmine_close_button'
-  author_url 'http://github.com/akzhan'
+  url 'http://github.com/Undev/redmine_close_button'
+  author_url 'http://github.com/Undev'
 end
 
