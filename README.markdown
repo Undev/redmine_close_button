@@ -33,6 +33,7 @@ Restart Redmine and have a fun!
 - ru by Akzhan Abdulin
 - fr by Sylvain Lasnier
 - pt by José Trancas
+- bg by Ivan Cenov
 
 Contributions are welcome!
 
