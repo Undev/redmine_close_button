@@ -34,6 +34,7 @@ Restart Redmine and have a fun!
 - fr by Sylvain Lasnier
 - pt by José Trancas
 - bg by Ivan Cenov
+- de by aceman3000
 
 Contributions are welcome!
 
