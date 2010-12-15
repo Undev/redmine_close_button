@@ -12,7 +12,7 @@ This button acts as typical "Update" form submittion and shown when:
 
 ## Screenshot
 
-![Contextual toolbar of Redmine issue](https://github.com/akzhan/redmine_close_button/raw/master/screenshot.png "Contextual toolbar of Redmine issue")
+![Contextual toolbar of Redmine issue](https://github.com/Undev/redmine_close_button/raw/master/screenshot.png "Contextual toolbar of Redmine issue")
 
 ## Compatibility
 
@@ -23,7 +23,7 @@ Tested with Redmine 1.0.2.
 Download the sources and put them to your vendor/plugins folder.
 
     $ cd {REDMINE_ROOT}
-    $ git clone git://github.com/akzhan/redmine_close_button.git vendor/plugins/redmine_close_button
+    $ git clone git://github.com/Undev/redmine_close_button.git vendor/plugins/redmine_close_button
 
 Restart Redmine and have a fun!
 
