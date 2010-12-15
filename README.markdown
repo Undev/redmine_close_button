@@ -40,7 +40,12 @@ Contributions are welcome!
 
 ## Changelog
 
+### 0.0.2
+
+- New translations added
+- Home has been moved to [Undev organization repository](https://github.com/Undev/redmine_close_button)
+
 ### 0.0.1
 
-- First public release.
+- First public release
 
