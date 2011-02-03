@@ -16,7 +16,7 @@ This button acts as typical "Update" form submittion and shown when:
 
 ## Compatibility
 
-Tested with Redmine 1.0.2.
+Tested with Redmine 1.0.2, 1.0.5.
 
 ## Installation
 
