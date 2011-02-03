@@ -42,8 +42,17 @@ document.observe('dom:loaded', function()
 		return;
 	}
 	var f = $('issue-form');
-	var area = $$('div.content>div.contextual')[0];
-	if (f === null || area === null)
+	var all_areas = $$('div#content>div.contextual');
+  var areas = [];
+  for (var ai = 0; ai < all_areas.length; ai++)
+  {
+    if (all_areas[ai].select('a.icon').length > 0)
+    {
+      areas.push(all_areas[ai]);
+    }
+  }
+  all_areas = null;
+	if (f === null || areas.length === 0)
 	{
 		return;
 	}
@@ -52,11 +61,21 @@ document.observe('dom:loaded', function()
 		s.value = ID_CLOSED;
 		f.submit();
 	};
-	var closeButtons = $$('a.redmine-close-button');
-	for (var i = closeButtons.length - 1; i >= 0; i--)
-	{
-		var closeButton = closeButtons[i];
-		closeButton.style.display = 'inline';
-		closeButton.observe('click', closer);
-	}
+	var closeButtonTemplate = $$('a.redmine-close-button')[0];
+  for (ai = 0; ai < areas.length; ai++)
+  {
+    var area = areas[ai];
+    var closeButton = closeButtonTemplate.cloneNode(true);
+    closeButton.style.display = 'inline';
+    closeButton.observe('click', closer);
+    var delButton = area.select('a.icon-del');
+    if (delButton.length > 0)
+    {
+      delButton[0].insert({ before: closeButton });
+    }
+    else
+    {
+      area.appendChild(closeButton);
+    }
+  }
 });
