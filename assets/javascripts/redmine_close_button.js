@@ -56,9 +56,11 @@ document.observe('dom:loaded', function()
 	{
 		return;
 	}
+  var done_ratio = $('issue_done_ratio');
 	var closer = function(e)
 	{
 		s.value = ID_CLOSED;
+    done_ratio.value = 100;
 		f.submit();
 	};
 	var closeButtonTemplate = $$('a.redmine-close-button')[0];
