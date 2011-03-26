@@ -39,6 +39,7 @@ Restart Redmine and have a fun!
 - sv    by Calle Wolff
 - zh    by Anson Chen
 - zh-TW by Anson Chen
+
 Contributions are welcome!
 
 ## Changelog
