@@ -43,6 +43,11 @@ Contributions are welcome!
 
 ## Changelog
 
+### 0.0.4
+
+- Closing of issue now set its progress up to 100% - Alexey Kuleshov
+- Simplified and traditional Chinese translations added
+
 ### 0.0.3
 
 - Plugin now hooks issue page instead of replacing of template to be compatible with later versions of Redmine
