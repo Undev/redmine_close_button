@@ -29,15 +29,16 @@ Restart Redmine and have a fun!
 
 ## Translations
 
-- en by Akzhan Abdulin
-- ru by Akzhan Abdulin
-- fr by Sylvain Lasnier
-- pt by José Trancas
-- bg by Ivan Cenov
-- de by aceman3000
-- pl by Piotrek Okoński
-- sv by Calle Wolff
-
+- en    by Akzhan Abdulin
+- ru    by Akzhan Abdulin
+- fr    by Sylvain Lasnier
+- pt    by José Trancas
+- bg    by Ivan Cenov
+- de    by aceman3000
+- pl    by Piotrek Okoński
+- sv    by Calle Wolff
+- zh    by Anson Chen
+- zh-TW by Anson Chen
 Contributions are welcome!
 
 ## Changelog
