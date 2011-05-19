@@ -30,6 +30,7 @@ Restart Redmine and have a fun!
 ## Translations
 
 - en    by Akzhan Abdulin
+- en-GB by Daniel Watkins (looks exactly as en, but somebody needs separated locale)
 - ru    by Akzhan Abdulin
 - fr    by Sylvain Lasnier
 - pt    by José Trancas
