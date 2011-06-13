@@ -1,0 +1,4 @@
+# Es strings go here for Rails i18n
+es:
+  button_close: "Cerrar"
+
