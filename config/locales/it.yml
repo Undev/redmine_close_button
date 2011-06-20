@@ -1,0 +1,4 @@
+# Italian strings go here for Rails i18n
+it:
+  button_close: "Chiudi"
+

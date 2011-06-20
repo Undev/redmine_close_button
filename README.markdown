@@ -41,10 +41,15 @@ Restart Redmine and have a fun!
 - zh    by Anson Chen
 - zh-TW by Anson Chen
 - es    by Octavio Fuenzalida
+- it    by Cipparello
 
 Contributions are welcome!
 
 ## Changelog
+
+### 0.0.5
+
+- New translations added
 
 ### 0.0.4
 
