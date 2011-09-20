@@ -60,7 +60,9 @@ document.observe('dom:loaded', function()
 	var closer = function(e)
 	{
 		s.value = ID_CLOSED;
-    done_ratio.value = 100;
+		if (done_ratio) {
+			done_ratio.value = 100;
+		}
 		f.submit();
 	};
 	var closeButtonTemplate = $$('a.redmine-close-button')[0];
