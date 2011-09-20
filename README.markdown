@@ -20,10 +20,12 @@ Tested with Redmine 0.9.6, 1.0.2, 1.0.5, 1.1.0. It doesn't support custom issue 
 
 ## Installation
 
-Download the sources and put them to your vendor/plugins folder.
+Download the sources and put them to your _vendor/plugins/redmine_close_button_ folder.
 
-    $ cd {REDMINE_ROOT}
-    $ git clone git://github.com/Undev/redmine_close_button.git vendor/plugins/redmine_close_button
+```bash
+cd {REDMINE_ROOT}
+git clone git://github.com/Undev/redmine_close_button.git vendor/plugins/redmine_close_button
+```
 
 Restart Redmine and have a fun!
 
@@ -46,6 +48,10 @@ Restart Redmine and have a fun!
 Contributions are welcome!
 
 ## Changelog
+
+### 0.0.6
+
+- JavaScript error fixed when Redmine configured to automatically update "Done ratio" field. Thanks to [Ilya Pleshakov](https://github.com/da-eto-ya).
 
 ### 0.0.5
 
