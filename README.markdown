@@ -16,7 +16,11 @@ This button acts as typical "Update" form submittion and shown when:
 
 ## Compatibility
 
-Tested with Redmine 0.9.6, 1.0.2, 1.0.5, 1.1.0. It doesn't support custom issue statuses yet.
+Tested with Redmine 0.9.6, 1.0.2, 1.0.5, 1.1.0, 1.2.1.
+
+## To Do List
+
+ * Support custom issue statuses.
 
 ## Installation
 
@@ -55,24 +59,24 @@ Contributions are welcome!
 
 ### 0.0.5
 
-- New translations added
+- New translations added.
 
 ### 0.0.4
 
-- Closing of issue now set its progress up to 100% - Alexey Kuleshov
-- Simplified and traditional Chinese translations added
+- Closing of issue now set its progress up to 100% - [Alexey Kuleshov](https://github.com/kulesa).
+- Simplified and traditional Chinese translations added.
 
 ### 0.0.3
 
-- Plugin now hooks issue page instead of replacing of template to be compatible with later versions of Redmine
-- New translations added
+- Plugin now hooks issue page instead of replacing of template to be compatible with upcoming versions of Redmine.
+- New translations added.
 
 ### 0.0.2
 
-- New translations added
-- Home has been moved to [Undev organization repository](https://github.com/Undev/redmine_close_button)
+- New translations added.
+- Home has been moved to [Undev organization repository](https://github.com/Undev/redmine_close_button).
 
 ### 0.0.1
 
-- First public release
+- First public release.
 
