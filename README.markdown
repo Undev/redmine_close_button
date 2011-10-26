@@ -48,6 +48,7 @@ Restart Redmine and have a fun!
 - zh-TW by Anson Chen
 - es    by Octavio Fuenzalida
 - it    by Cipparello
+- cs    by Martin Hasoň
 
 Contributions are welcome!
 

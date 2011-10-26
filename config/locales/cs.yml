@@ -1,0 +1,4 @@
+# Czech strings go here for Rails i18n
+cs:
+  button_close: "Uzavřít"
+
