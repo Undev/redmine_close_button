@@ -54,6 +54,11 @@ Contributions are welcome!
 
 ## Changelog
 
+### 0.0.7
+
+- Code style updated.
+- New translations added.
+
 ### 0.0.6
 
 - JavaScript error fixed when Redmine configured to automatically update "Done ratio" field. Thanks to [Ilya Pleshakov](https://github.com/da-eto-ya).
