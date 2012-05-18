@@ -1,0 +1,4 @@
+# Korean strings go here for Rails i18n
+ko:
+  button_close: "닫기"
+
