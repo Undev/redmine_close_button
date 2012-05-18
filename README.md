@@ -49,6 +49,7 @@ Restart Redmine and have a fun!
 - es    by Octavio Fuenzalida
 - it    by Cipparello
 - cs    by Martin Hasoň
+- ko    by Chan-shik Lim
 
 Contributions are welcome!
 
