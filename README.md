@@ -53,3 +53,5 @@ Restart Redmine and have a fun!
 
 Contributions are welcome!
 
+## ChangeLogs
+ * 08-17-2012	Compactible with Redmine 2.x
