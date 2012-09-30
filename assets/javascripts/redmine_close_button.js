@@ -1,13 +1,13 @@
-document.observe('dom:loaded', function() {
+$(document).ready(function() {
 	var ID_CLOSED = 5, ID_REJECTED = 6;
 
-	// redmine uses prototype so use it.
+	// Redmine uses jQuery so use it.
 
-	var s = $('issue_status_id');
-	if (s === null) {
+	var s = $('#issue_status_id');
+	if (!s[0]) {
 		return;
 	}
-	var options = s.childNodes;
+	var options = s[0].childNodes;
 	var needCloseButton = false;
 	for (var i = options.length - 1; i >= 0; i--) {
 		var option = options[i];
@@ -30,37 +30,39 @@ document.observe('dom:loaded', function() {
 	if (!needCloseButton) {
 		return;
 	}
-	var f = $('issue-form');
-	var all_areas = $$('div#content>div.contextual');
+	var f = $('#issue-form');
+	var all_areas = $('div#content > div.contextual');
 	var areas = [];
 	for (var ai = 0; ai < all_areas.length; ai++) {
-		if (all_areas[ai].select('a.icon').length > 0) {
-			areas.push(all_areas[ai]);
+		if ($(all_areas[ai]).find('a.icon').length > 0) {
+			areas.push($(all_areas[ai]));
 		}
 	}
 	all_areas = null;
-	if (f === null || areas.length === 0) {
+	if (!f[0] || !areas.length) {
 		return;
 	}
-	var done_ratio = $('issue_done_ratio');
+	var done_ratio = $('#issue_done_ratio');
 	var closer = function(e) {
 		s.value = ID_CLOSED;
 		if (done_ratio) {
-			done_ratio.value = 100;
+			done_ratio[0].value = 100;
 		}
 		f.submit();
 	};
-	var closeButtonTemplate = $$('a.redmine-close-button')[0];
+	var closeButtonTemplate = $('a.redmine-close-button');
 	for (ai = 0; ai < areas.length; ai++) {
 		var area = areas[ai];
-		var closeButton = closeButtonTemplate.cloneNode(true);
-		closeButton.style.display = 'inline';
-		closeButton.observe('click', closer);
-		var delButton = area.select('a.icon-del');
-		if (delButton.length > 0) {
-			delButton[0].insert({ before: closeButton });
+		var closeButton = closeButtonTemplate
+			.clone()
+			.css('display', 'inline')
+			.click(closer);
+
+		var delButton = area.find('a.icon-del');
+		if (delButton[0]) {
+			closeButton.insertBefore(delButton);
 		} else {
-			area.appendChild(closeButton);
+			area.append(closeButton);
 		}
 	}
 });
