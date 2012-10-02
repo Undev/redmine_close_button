@@ -44,7 +44,7 @@ $(document).ready(function() {
 	}
 	var done_ratio = $('#issue_done_ratio');
 	var closer = function(e) {
-		s.value = ID_CLOSED;
+		s[0].value = ID_CLOSED;
 		if (done_ratio) {
 			done_ratio[0].value = 100;
 		}
