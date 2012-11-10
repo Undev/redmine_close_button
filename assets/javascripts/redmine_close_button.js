@@ -1,8 +1,9 @@
-(function($) {
+(function() {
 	var ID_CLOSED = 5, ID_REJECTED = 6;
-	if ($) {
+	if (jQuery) {
 		// redmine uses jQuery so use it.
-		$(document).ready(function() {
+		jQuery(document).ready(function() {
+			var $ = jQuery;
 			var s = $('#issue_status_id');
 			if (s.length === 0) {
 				return;
@@ -121,5 +122,5 @@
 			}
 		});
 	}
-})(jQuery);
+})();
 
