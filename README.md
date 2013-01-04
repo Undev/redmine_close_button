@@ -16,7 +16,7 @@ This button acts as typical "Update" form submittion and shown when:
 
 ## Compatibility
 
-Tested with Redmine 0.9.6, 1.0.2, 1.0.5, 1.1.0, 1.2.1, 1.3.1 and with ChiliProject 2.3.0.
+Tested with Redmine 0.9.6, 1.0.2, 1.0.5, 1.1.0, 1.2.1, 1.3.1, 2.0.3, 2.1.0 and with ChiliProject 2.3.0.
 
 ## To Do List
 
@@ -54,4 +54,6 @@ Restart Redmine and have a fun!
 Contributions are welcome!
 
 ## ChangeLogs
- * 08-17-2012	Compactible with Redmine 2.x
+
+ * 11-10-2012 Compatible with Redmine 2.1.x by @logical-and
+ * 08-17-2012	Compactible with Redmine 2.0.x by @archonwang
