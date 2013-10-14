@@ -1,6 +1,6 @@
 (function() {
 	var ID_CLOSED = 5, ID_REJECTED = 6;
-	if (jQuery) {
+	if (window.jQuery) {
 		// redmine uses jQuery so use it.
 		jQuery(document).ready(function() {
 			var $ = jQuery;
