@@ -45,6 +45,10 @@ To close the issue, click the **Close** button on the issue toolbar.
 This will change the issue status to **Closed** and its progress to **100%**.
 ![close link result](close_button_2.PNG)
 
+## Maintainers
+
+Danil Tashkinov, [github.com/nodecarter](https://github.com/nodecarter)
+
 ## License
 
 Copyright (c) 2015 Undev
