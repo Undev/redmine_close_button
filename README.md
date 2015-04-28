@@ -47,7 +47,7 @@ This will change the issue status to **Closed** and its progress to **100%**.
 
 ## Maintainers
 
-Danil Tashkinov, [github.com/nodecarter](https://github.com/nodecarter)
+Akzhan Abdulin, [github.com/akzhan](https://github.com/akzhan)
 
 ## License
 
