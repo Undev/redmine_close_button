@@ -1,59 +1,66 @@
-# Redmine Close Issue button
+# Redmine Close Issue Button Plugin
 
-## Introduction
-
-Plugin that places "Close issue" button into contextual toolbar of shown issue.
-
-This button acts as typical "Update" form submittion and shown when:
-
- * User allowed to close issue.
-
- * Issue is not already closed nor rejected.
-
-## Screenshot
-
-![Contextual toolbar of Redmine issue](https://github.com/Undev/redmine_close_button/raw/master/screenshot.png "Contextual toolbar of Redmine issue")
+This plugin adds the **Close** button to the issue toolbar in Redmine.
 
 ## Compatibility
 
-Tested with Redmine 0.9.6, 1.0.2, 1.0.5, 1.1.0, 1.2.1, 1.3.1, 2.0.3, 2.1.0 and with ChiliProject 2.3.0.
-
-## To Do List
-
- * Support custom issue statuses.
+This plugin is compatible with Redmine 0.9.6, 1.0.2, 1.0.5, 1.1.0, 1.2.1, 1.3.1, 2.0.3, 2.1.0, 2.6.0.
 
 ## Installation
 
-Download the sources and put them to your _vendor/plugins/redmine_close_button_ folder.
+*These installation instructions are based on Redmine 2.6.0. For instructions for previous versions, see [Redmine wiki](http://www.redmine.org/projects/redmine/wiki/Plugins).*
 
-```bash
-cd {REDMINE_ROOT}
-git clone git://github.com/Undev/redmine_close_button.git vendor/plugins/redmine_close_button
-```
+1. To install the plugin
+    * Download the .ZIP archive, extract files and copy the plugin directory into *#{REDMINE_ROOT}/plugins*.
+    
+    Or
 
-Restart Redmine and have a fun!
+    * Change you current directory to your Redmine root directory:  
 
-## Translations
+            cd {REDMINE_ROOT}
+ 
+      Copy the plugin from GitHub using the following command:
 
-- en    by Akzhan Abdulin
-- en-GB by Daniel Watkins (looks exactly as en, but somebody needs separated locale)
-- ru    by Akzhan Abdulin
-- fr    by Sylvain Lasnier
-- pt    by José Trancas
-- bg    by Ivan Cenov
-- de    by aceman3000
-- pl    by Piotrek Okoński
-- sv    by Calle Wolff
-- zh    by Anson Chen
-- zh-TW by Anson Chen
-- es    by Octavio Fuenzalida
-- it    by Cipparello
-- cs    by Martin Hasoň
-- ko    by Chan-shik Lim
+            git clone https://github.com/Undev/redmine_close_button.git plugins/redmine_close_button
 
-Contributions are welcome!
+2. Update the Gemfile.lock file by running the following commands:  
 
-## ChangeLogs
+         rm Gemfile.lock  
+         bundle install
 
- * 11-10-2012 Compatible with Redmine 2.1.x by @logical-and
- * 08-17-2012	Compactible with Redmine 2.0.x by @archonwang
+3. Restart Redmine.
+
+Now you should be able to see the plugin in **Administration > Plugins**.
+ 
+## Usage
+
+This plugin adds the **Close** button to the issue toolbar in Redmine. The **Close** button is displayed if the following conditions are met:
+
+* A user is allowed to close the issue.
+* The issue is neither closed nor rejected.
+
+To close the issue, click the **Close** button on the issue toolbar.
+![close link on toolbar](close_button_1.PNG)
+
+This will change the issue status to **Closed** and its progress to **100%**.
+![close link result](close_button_2.PNG)
+
+## Maintainers
+
+Danil Tashkinov, [github.com/nodecarter](https://github.com/nodecarter)
+
+## License
+
+Copyright (c) 2015 Undev
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
